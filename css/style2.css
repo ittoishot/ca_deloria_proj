@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navbar{
+	width: 100%;
+	background: #add8e6;
+	overflow:auto;
+	font-family: verdana;
+}
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 60px
+}
+.navbar li{
+	float: left;
+}
+.navbar ul li a{
+	text-decoration: none;
+	width: 130px;
+	display: block;
+	text-align: center;
+	color: #ff8c00;
+	text-transform: uppercase;
+}
+.navbar li a:hover{
+	color: #00008B;
+	opacity: 0.5;
+	font-size: 19px;
+}
+.search-form {
+	margin-top:15px;
+	float:right;
+	margin-right:100px;
+}
+input[type=text]{
+	padding:7px;
+	border: none;
+	font-size:16px;
+}
+button{
+	float:right;
+	background: orange;
+	color:white;
+	border-radius: 0 5px 5px 0;
+	cursor:pointer;
+	position:relative;
+	padding:7px;
+	border:none;
+	font-size:16px;
+}
+.homevid{
+	position: absolute;
+	top: 250px;
+	left: 390px;
+}
+.text{
+	position: absolute;
+	left: 425px;
+}
+.text h2{
+	text-align: center;
+	font-family: "Garamond", serif;
+	color: #808080;
+	font-size: 50px;
+}
+.text h3{
+	font-size:25px;
+	text-align: center;
+	font-family: "Lucida Handwriting", cursive;
+	color: #1E90FF;
+}
+footer{
+	position: absolute;
+	top: 700px;
+	padding: 30px;
+	width: 95.5%;
+	background-color: #FFD580;
+	color: white;
+	text-transform: uppercase;
+	color: #00008B;
+	font-family: verdana;
+}
+#ig{
+	position: absolute;
+	right: 300px;
+	top: 720px;
+	background: url(../images/logos.png) no-repeat -131px -27px;
+	width: 44px;
+	height: 44px;
+	z-index: 1;
+}
+#ig:hover{
+	background: url(../images/logos.png) no-repeat -131px -273px;
+	width: 44px;
+	height: 45px;
+}
+#tw{
+	position: absolute;
+	right: 200px;
+	top: 720px;
+	background: url(../images/logos.png) no-repeat -83px -27px;
+	width: 47px;
+	height: 44px;
+	z-index: 1;
+}
+#tw:hover{
+	background: url(../images/logos.png) no-repeat -83px -273px;
+	width: 47px;
+	height: 44px;
+}
+#fb{
+	position: absolute;
+	right: 100px;
+	top: 720px;
+	background: url(../images/logos.png) no-repeat -35px -27px;
+	width: 44px;
+	height: 44px;
+	z-index: 1;
+}
+#fb:hover{
+	background: url(../images/logos.png) no-repeat -35px -273px;
+	width: 44px;
+	height: 44px;
+}
+::selection{
+	color: white;
+	background-color: #1560BD;
+}
+.resource ul {
+	list-style-type: none;
+}
+.resource li{
+	font-size: 10px;
+}
+.resource ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+}
